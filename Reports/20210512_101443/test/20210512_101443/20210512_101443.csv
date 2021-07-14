@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+test,,,,2021-05-12 10:14:56,2021-05-12 10:15:21,25.014s,FAILED
+,,,,,,,
+Test Cases/Trintellix/TC_39_Trintellix_Patient_Resource_Email_Valid,,,,2021-05-12 10:14:59,2021-05-12 10:15:21,22.186s,FAILED
+"trintellixkeywords.resources.email_valid(""Resource_Valid"")",,,,2021-05-12 10:15:00,2021-05-12 10:15:21,21.263s,FAILED

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="test" time="27.57" tests="1" failures="0" skips="0" errors="0">
+   <testsuite name="test" tests="1" failures="0" errors="0" time="27.57" skips="0" timestamp="2021-07-09 16:25:33" hostname="payyappan - 192.168.2.26" id="Test Suites/test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\payyappan\\Documents\\GitHub\\Auto_latest\\takeda-qa-automation\\Takeda_QA\\Trintellix_Automation\\TrintellixConsumer\\Reports\\20210709_162526\\test\\20210709_162526"/>
+         <property name="logFiles" value="C:\\Users\\payyappan\\Documents\\GitHub\\Auto_latest\\takeda-qa-automation\\Takeda_QA\\Trintellix_Automation\\TrintellixConsumer\\Reports\\20210709_162526\\test\\20210709_162526\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="payyappan - 192.168.2.26"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.9.1.208"/>
+         <property name="browser" value="Chrome 91.0.4472.124"/>
+         <property name="hostAddress" value="192.168.2.26"/>
+         <property name="sessionId" value="ac60a3c4bfb7a941cb042dd545a43998"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Trintellix/TC_39_Trintellix_Patient_Resource_Email_Valid" time="25.545" classname="Test Cases/Trintellix/TC_39_Trintellix_Patient_Resource_Email_Valid" status="PASSED">
+         <system-out><![CDATA[2021-07-09 16:25:35 - [TEST_CASE][PASSED] - Test Cases/Trintellix/TC_39_Trintellix_Patient_Resource_Email_Valid: Test Cases/Trintellix/TC_39_Trintellix_Patient_Resource_Email_Valid
+
+2021-07-09 16:25:35 - [TEST_STEP][PASSED] - trintellixkeywords.resources.email_valid("Resource_Valid"): trintellixkeywords.resources.email_valid is PASSED
+
+2021-07-09 16:25:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-07-09 16:25:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-09 16:25:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-07-09 16:25:39 - [MESSAGE][PASSED] - Current window maximized
+
+2021-07-09 16:25:42 - [MESSAGE][PASSED] - Navigate to 'https://trintellix.takedauat.epsilon.com/' successfully
+
+2021-07-09 16:25:43 - [MESSAGE][PASSED] - Object 'Object Repository/CostOfTrintellix/ImpSafteyInfo' is visible
+
+2021-07-09 16:25:44 - [MESSAGE][PASSED] - Object: 'Object Repository/CostOfTrintellix/closeprescribepopup' is clicked on
+
+2021-07-09 16:25:44 - [MESSAGE][PASSED] - Object: 'Object Repository/CostOfTrintellix/ImpSafteyInfo' is clicked on
+
+2021-07-09 16:25:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Activate_Saving_Card/landing_savings_more' is clicked on
+
+2021-07-09 16:25:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Resources/resource_link' is clicked on
+
+2021-07-09 16:25:49 - [MESSAGE][PASSED] - Text 'dewg@klick.com' is set on object 'Object Repository/Resources/Patient_Brochure'
+
+2021-07-09 16:25:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Resources/patient_button' is clicked on
+
+2021-07-09 16:25:52 - [MESSAGE][PASSED] - Text 'dewg@klick.com' is set on object 'Object Repository/Resources/taccess'
+
+2021-07-09 16:25:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Resources/taccess_button' is clicked on
+
+2021-07-09 16:25:56 - [MESSAGE][PASSED] - Text 'dewg@klick.com' is set on object 'Object Repository/Resources/Telehealth'
+
+2021-07-09 16:25:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Resources/Telehealth_button' is clicked on
+
+2021-07-09 16:25:58 - [MESSAGE][PASSED] - Object 'Object Repository/Resources/Email_success' is present
+
+2021-07-09 16:25:59 - [MESSAGE][PASSED] - Object 'Object Repository/Resources/Email_success _taccess' is present
+
+2021-07-09 16:25:59 - [MESSAGE][PASSED] - Object 'Object Repository/Resources/Email_success_Telehealth' is present
+
+2021-07-09 16:26:00 - [MESSAGE][PASSED] - Browser is closed
+
+2021-07-09 16:26:00 - [MESSAGE][PASSED] - trintellixkeywords.resources.email_valid is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-07-09 16:25:33 - [TEST_SUITE][PASSED] - test: Test Cases/Trintellix/TC_39_Trintellix_Patient_Resource_Email_Valid]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

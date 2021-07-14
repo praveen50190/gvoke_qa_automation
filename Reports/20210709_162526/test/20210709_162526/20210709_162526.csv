@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+test,Chrome 91.0.4472.124,,,2021-07-09 16:25:33,2021-07-09 16:26:00,27.192s,PASSED
+,,,,,,,
+Test Cases/Trintellix/TC_39_Trintellix_Patient_Resource_Email_Valid,Chrome 91.0.4472.124,,,2021-07-09 16:25:35,2021-07-09 16:26:00,25.545s,PASSED
+"trintellixkeywords.resources.email_valid(""Resource_Valid"")",Chrome 91.0.4472.124,,,2021-07-09 16:25:35,2021-07-09 16:26:00,25.088s,PASSED

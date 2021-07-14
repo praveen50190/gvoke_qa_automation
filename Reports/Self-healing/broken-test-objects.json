@@ -1,0 +1,44 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Cost/CostLandingPageText",
+      "brokenLocator": "/html/body/div[3]/div[1]/div/div/section/section/div[2]/div/div/div/div[2]/h1/text()[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027CONTINUE\u0027])[1]/following::h1[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Cost/CostLandingPageText_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/JoinTaccess/Please enter your First NameLabel",
+      "brokenLocator": "//label[@id\u003d\u0027firstname-error\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027*\u0027])[4]/following::label[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/JoinTaccess/Please enter your First NameLabel_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/JoinTaccess/InfoTrintellixChck",
+      "brokenLocator": "/html//form[@id\u003d\u0027Registration\u0027]/div[@class\u003d\u0027bordered-content\u0027]//label[@class\u003d\u0027checkbox-container radio-error\u0027]/span[@class\u003d\u0027checkmark\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": ".form-group.form-group-checkbox.form-group-input.infoCheckbox \u003e .checkbox-container \u003e .checkmark",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/JoinTaccess/InfoTrintellixChck_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Replacement_Card/Check Your Eligibility",
+      "brokenLocator": "//h3[@class\u003d\u0027sign-up-first-step\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//form[@id\u003d\u0027Registration\u0027]/div/div/h3",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Replacement_Card/Check Your Eligibility_idRelative.png"
+    }
+  ]
+}

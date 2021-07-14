@@ -1,0 +1,549 @@
+[35m[Appium][39m Welcome to Appium v1.21.0
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 57501
+[35m[Appium][39m   loglevel: info
+[35m[Appium][39m   tmpDir: C:\Users\PAYYAP~1\AppData\Local\Temp\\Katalon\Appium\Temp1620828669049
+[35m[Appium][39m   chromedriverPort: 57502
+[35m[Appium][39m Deprecated server args:
+[35m[Appium][39m   [31m--chromedriver-port[39m => --default-capabilities
+[35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
+[35m[Appium][39m   chromedriverPort: 57502
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:57501
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m4 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"goog:chromeOptions":{"args":[],"extensions":[],"w3c":false},"newCommandTimeout":1800,"platformVersion":"8.1.0","browserName":"chrome","platformName":"Android","udid":"76b2f2097d74","deviceId":"76b2f2097d74","deviceName":"Xiaomi Redmi 5A (Android 8.1.0)","platform":"ANDROID"},"capabilities":{"firstMatch":[{"browserName":"chrome","deviceId":"76b2f2097d74","appium:deviceName":"Xiaomi Redmi 5A (Android 8.1.0)","goog:chromeOptions":{"args":[],"extensions":[],"w3c":false},"appium:newCommandTimeout":1800,"platform":"ANDROID","platformName":"android","appium:platformVersion":"8.1.0","appium:udid":"76b2f2097d74"}]}}[39m
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   deviceId
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   chromedriverPort
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m   DEPRECATION WARNING:
+[35m[Appium][39m 
+[35m[Appium][39m   The 'automationName' capability was not provided in the desired 
+[35m[Appium][39m   capabilities for this Android session
+[35m[Appium][39m 
+[35m[Appium][39m   Setting 'automationName=UiAutomator2' by default and using the 
+[35m[Appium][39m   UiAutomator2 Driver
+[35m[Appium][39m 
+[35m[Appium][39m   The next major version of Appium (2.x) will **require** the 
+[35m[Appium][39m   'automationName' capability to be set for all sessions on all 
+[35m[Appium][39m   platforms
+[35m[Appium][39m 
+[35m[Appium][39m   In previous versions (Appium <= 1.13.x), the default was 
+[35m[Appium][39m   'automationName=UiAutomator1'
+[35m[Appium][39m 
+[35m[Appium][39m   If you wish to use that automation instead of UiAutomator2, please 
+[35m[Appium][39m   add 'automationName=UiAutomator1' to your desired capabilities
+[35m[Appium][39m 
+[35m[Appium][39m   For more information about drivers, please visit 
+[35m[Appium][39m   http://appium.io/docs/en/about-appium/intro/ and explore the 
+[35m[Appium][39m   'Drivers' menu
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m 
+[35m[Appium][39m Appium v1.21.0 creating new AndroidUiautomator2Driver (v1.65.0) session
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   goog:chromeOptions
+[35m[BaseDriver][39m   deviceId
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m Session created with session id: 566a98d3-6e49-46d3-a888-04296872d3a3
+[35m[UiAutomator2][39m We're going to run a Chrome-based session
+[35m[UiAutomator2][39m Chrome-type package and activity are com.android.chrome and com.google.android.apps.chrome.Main
+[35m[UiAutomator2][39m Starting 'com.android.chrome' directly on the device
+[35m[ADB][39m Found 1 'build-tools' folders under 'C:\Users\payyappan\.katalon\tools\android_sdk' (newest first):
+[35m[ADB][39m     C:/Users/payyappan/.katalon/tools/android_sdk/build-tools/29.0.3
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\payyappan\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[35m[AndroidDriver][39m Retrieving device list
+[35m[AndroidDriver][39m Using device: 76b2f2097d74
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\payyappan\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[35m[AndroidDriver][39m No app sent in, not parsing package/activity
+[35m[ADB][39m Using 'apksigner.jar' from 'C:\Users\payyappan\.katalon\tools\android_sdk\build-tools\29.0.3\lib\apksigner.jar'
+[35m[ADB][39m 'C:\Users\payyappan\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.21.1.apk' is signed with the default certificate
+[35m[ADB][39m 'C:\Users\payyappan\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+[35m[UiAutomator2][39m Server packages are not going to be (re)installed
+[35m[ADB][39m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[35m[UiAutomator2][39m Starting UIAutomator2 server 4.21.1
+[35m[UiAutomator2][39m Using UIAutomator2 server from 'C:\Users\payyappan\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.21.1.apk' and test from 'C:\Users\payyappan\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[35m[AndroidDriver][39m Starting a chrome-based browser session
+[35m[AndroidDriver][39m Merging 'goog:chromeOptions' into 'chromeOptions'. This may cause unexpected behavior
+[35m[Chromedriver][39m Cannot retrieve version number from 'bk' Chromedriver binary. Make sure it returns a valid version string in response to '--version' command line argument. spawn C:/Users/payyappan/AppData/Roaming/npm/node_modules/appium/node_modules/appium-chromedriver/chromedriver/win/bk ENOENT
+[35m[Chromedriver][39m Set chromedriver binary as: C:/Users/payyappan/AppData/Roaming/npm/node_modules/appium/node_modules/appium-chromedriver/chromedriver/win/chromedriver.exe
+[35m[Chromedriver][39m Spawning chromedriver with: C:/Users/payyappan/AppData/Roaming/npm/node_modules/appium/node_modules/appium-chromedriver/chromedriver/win/chromedriver.exe --url-base=wd/hub --port=57502 --adb-port=5037 --verbose
+[35m[Chromedriver][39m Chromedriver v. 83.0.4103.39 supports W3C protocol, but MJSONWP one has been explicitly requested
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:57502
+[35m[Chromedriver][39m Starting MJSONWP Chromedriver session with capabilities: {
+[35m[Chromedriver][39m   "desiredCapabilities": {
+[35m[Chromedriver][39m     "chromeOptions": {
+[35m[Chromedriver][39m       "androidPackage": "com.android.chrome",
+[35m[Chromedriver][39m       "androidDeviceSerial": "76b2f2097d74",
+[35m[Chromedriver][39m       "args": [],
+[35m[Chromedriver][39m       "extensions": [],
+[35m[Chromedriver][39m       "w3c": false
+[35m[Chromedriver][39m     },
+[35m[Chromedriver][39m     "loggingPrefs": {
+[35m[Chromedriver][39m       "browser": "ALL"
+[35m[Chromedriver][39m     }
+[35m[Chromedriver][39m   }
+[35m[Chromedriver][39m }
+[35m[WD Proxy][39m Determined the downstream protocol as 'MJSONWP'
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 566a98d3-6e49-46d3-a888-04296872d3a3 added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m18875 ms - 1189[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (566a98d3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId b19975842da0054bb3002885bbc0f02f with 566a98d3-6e49-46d3-a888-04296872d3a3
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3 [39m[32m200[39m [90m7 ms - 947[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (566a98d3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId b19975842da0054bb3002885bbc0f02f with 566a98d3-6e49-46d3-a888-04296872d3a3
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3 [39m[32m200[39m [90m5 ms - 947[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (566a98d3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId b19975842da0054bb3002885bbc0f02f with 566a98d3-6e49-46d3-a888-04296872d3a3
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3 [39m[32m200[39m [90m5 ms - 947[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[W3C (566a98d3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId b19975842da0054bb3002885bbc0f02f with 566a98d3-6e49-46d3-a888-04296872d3a3
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/timeouts [39m[32m200[39m [90m4 ms - 65[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":0}[39m
+[35m[W3C (566a98d3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId b19975842da0054bb3002885bbc0f02f with 566a98d3-6e49-46d3-a888-04296872d3a3
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/timeouts [39m[32m200[39m [90m3 ms - 65[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":0}[39m
+[35m[W3C (566a98d3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId b19975842da0054bb3002885bbc0f02f with 566a98d3-6e49-46d3-a888-04296872d3a3
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/timeouts [39m[32m200[39m [90m4 ms - 65[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/sync[39m
+[35m[HTTP][39m [90m{"script":"return navigator.sayswho= (function() { var ua= navigator.userAgent, tem, M= ua.match(/(opera|chrome|safari|firefox|msie|trident)\\/?\\s*(\\.?\\d+(\\.\\d+)*)/i) || []; if (/trident/i.test(M[1])) {     tem=  /\\brv[ :]+(\\d+)/g.exec(ua) || [];     return 'IE '+(tem[1] || ''); } if(M[1]=== 'Chrome') {     tem= ua.match(/\\b(OPR|Edge|Edg)\\/(\\d+)/);     if(tem!= null) return tem.slice(1).join(' ').replace('OPR', 'Opera').replace('Edg', 'Edge Chromium'); } M= M[2]? [M[1], M[2]]: [navigator.appName, navigator.appVersion, '-?']; if((tem= ua.match(/version\\/(\\d+)/i))!= null) M.splice(1, 1, tem[1]); return M.join(' ').replace('MSIE', 'IE');})();","args":[]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/sync [39m[32m200[39m [90m41 ms - 31[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":0}[39m
+[35m[W3C (566a98d3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId b19975842da0054bb3002885bbc0f02f with 566a98d3-6e49-46d3-a888-04296872d3a3
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/timeouts [39m[32m200[39m [90m4 ms - 65[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":0}[39m
+[35m[W3C (566a98d3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId b19975842da0054bb3002885bbc0f02f with 566a98d3-6e49-46d3-a888-04296872d3a3
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/timeouts [39m[32m200[39m [90m4 ms - 65[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/url[39m
+[35m[HTTP][39m [90m{"url":"https://trintellix.takedauat.epsilon.com/"}[39m
+[35m[W3C (566a98d3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId b19975842da0054bb3002885bbc0f02f with 566a98d3-6e49-46d3-a888-04296872d3a3
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/url [39m[32m200[39m [90m6436 ms - 65[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/async[39m
+[35m[HTTP][39m [90m{"script":"\tvar callback = arguments[arguments.length - 1].bind(this);\r\n\twindow.katalonWaiter.katalon_smart_waiter_do_ajax_wait(callback);","args":[]}[39m
+[35m[W3C (566a98d3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[Protocol Converter][39m Rewrote the original URL '/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/async' to '/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute_async' for MJSONWP protocol
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/async [39m[31m500[39m [90m189 ms - 1972[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class=\"isi-more-text\"]"}[39m
+[35m[W3C (566a98d3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId b19975842da0054bb3002885bbc0f02f with 566a98d3-6e49-46d3-a888-04296872d3a3
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/elements [39m[32m200[39m [90m56 ms - 158[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/element/0.7156309809492889-1/displayed[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (566a98d3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId b19975842da0054bb3002885bbc0f02f with 566a98d3-6e49-46d3-a888-04296872d3a3
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/element/0.7156309809492889-1/displayed [39m[32m200[39m [90m46 ms - 65[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/async[39m
+[35m[HTTP][39m [90m{"script":"\tvar callback = arguments[arguments.length - 1].bind(this);\r\n\twindow.katalonWaiter.katalon_smart_waiter_do_ajax_wait(callback);","args":[]}[39m
+[35m[W3C (566a98d3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[Protocol Converter][39m Rewrote the original URL '/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/async' to '/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute_async' for MJSONWP protocol
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/async [39m[31m500[39m [90m34 ms - 1972[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/following::span[3]"}[39m
+[35m[W3C (566a98d3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId b19975842da0054bb3002885bbc0f02f with 566a98d3-6e49-46d3-a888-04296872d3a3
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/elements [39m[32m200[39m [90m57 ms - 158[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/element/0.7156309809492889-2/click[39m
+[35m[HTTP][39m [90m{"id":"0.7156309809492889-2"}[39m
+[35m[W3C (566a98d3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId b19975842da0054bb3002885bbc0f02f with 566a98d3-6e49-46d3-a888-04296872d3a3
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/element/0.7156309809492889-2/click [39m[32m200[39m [90m486 ms - 65[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/async[39m
+[35m[HTTP][39m [90m{"script":"\tvar callback = arguments[arguments.length - 1].bind(this);\r\n\twindow.katalonWaiter.katalon_smart_waiter_do_ajax_wait(callback);","args":[]}[39m
+[35m[W3C (566a98d3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[Protocol Converter][39m Rewrote the original URL '/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/async' to '/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute_async' for MJSONWP protocol
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/async [39m[31m500[39m [90m32 ms - 1972[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class=\"isi-more-text\"]"}[39m
+[35m[W3C (566a98d3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId b19975842da0054bb3002885bbc0f02f with 566a98d3-6e49-46d3-a888-04296872d3a3
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/elements [39m[32m200[39m [90m34 ms - 158[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/element/0.7156309809492889-1/click[39m
+[35m[HTTP][39m [90m{"id":"0.7156309809492889-1"}[39m
+[35m[W3C (566a98d3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId b19975842da0054bb3002885bbc0f02f with 566a98d3-6e49-46d3-a888-04296872d3a3
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/element/0.7156309809492889-1/click [39m[32m200[39m [90m335 ms - 65[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/async[39m
+[35m[HTTP][39m [90m{"script":"\tvar callback = arguments[arguments.length - 1].bind(this);\r\n\twindow.katalonWaiter.katalon_smart_waiter_do_ajax_wait(callback);","args":[]}[39m
+[35m[W3C (566a98d3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[Protocol Converter][39m Rewrote the original URL '/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/async' to '/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute_async' for MJSONWP protocol
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/async [39m[31m500[39m [90m270 ms - 1972[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//button[@class='open-hambergur']"}[39m
+[35m[W3C (566a98d3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId b19975842da0054bb3002885bbc0f02f with 566a98d3-6e49-46d3-a888-04296872d3a3
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/elements [39m[32m200[39m [90m205 ms - 158[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/sync[39m
+[35m[HTTP][39m [90m{"script":"arguments[0].scrollIntoView({block:'center'});","args":[{"ELEMENT":"0.7156309809492889-3","element-6066-11e4-a52e-4f735466cecf":"0.7156309809492889-3"}]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/sync [39m[32m200[39m [90m135 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/async[39m
+[35m[HTTP][39m [90m{"script":"\tvar callback = arguments[arguments.length - 1].bind(this);\r\n\twindow.katalonWaiter.katalon_smart_waiter_do_ajax_wait(callback);","args":[]}[39m
+[35m[W3C (566a98d3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[Protocol Converter][39m Rewrote the original URL '/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/async' to '/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute_async' for MJSONWP protocol
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/async [39m[31m500[39m [90m44 ms - 1972[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//button[@class='open-hambergur']"}[39m
+[35m[W3C (566a98d3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId b19975842da0054bb3002885bbc0f02f with 566a98d3-6e49-46d3-a888-04296872d3a3
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/elements [39m[32m200[39m [90m41 ms - 158[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/element/0.7156309809492889-3/click[39m
+[35m[HTTP][39m [90m{"id":"0.7156309809492889-3"}[39m
+[35m[W3C (566a98d3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId b19975842da0054bb3002885bbc0f02f with 566a98d3-6e49-46d3-a888-04296872d3a3
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/element/0.7156309809492889-3/click [39m[32m200[39m [90m395 ms - 65[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/async[39m
+[35m[HTTP][39m [90m{"script":"\tvar callback = arguments[arguments.length - 1].bind(this);\r\n\twindow.katalonWaiter.katalon_smart_waiter_do_ajax_wait(callback);","args":[]}[39m
+[35m[W3C (566a98d3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[Protocol Converter][39m Rewrote the original URL '/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/async' to '/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute_async' for MJSONWP protocol
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/async [39m[31m500[39m [90m89 ms - 1972[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//a[contains(text(),'Resources')]"}[39m
+[35m[W3C (566a98d3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId b19975842da0054bb3002885bbc0f02f with 566a98d3-6e49-46d3-a888-04296872d3a3
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/elements [39m[32m200[39m [90m60 ms - 158[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/sync[39m
+[35m[HTTP][39m [90m{"script":"arguments[0].scrollIntoView({block:'center'});","args":[{"ELEMENT":"0.7156309809492889-4","element-6066-11e4-a52e-4f735466cecf":"0.7156309809492889-4"}]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/sync [39m[32m200[39m [90m24 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/async[39m
+[35m[HTTP][39m [90m{"script":"\tvar callback = arguments[arguments.length - 1].bind(this);\r\n\twindow.katalonWaiter.katalon_smart_waiter_do_ajax_wait(callback);","args":[]}[39m
+[35m[W3C (566a98d3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[Protocol Converter][39m Rewrote the original URL '/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/async' to '/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute_async' for MJSONWP protocol
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/async [39m[31m500[39m [90m45 ms - 1972[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//a[contains(text(),'Resources')]"}[39m
+[35m[W3C (566a98d3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId b19975842da0054bb3002885bbc0f02f with 566a98d3-6e49-46d3-a888-04296872d3a3
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/elements [39m[32m200[39m [90m38 ms - 158[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/element/0.7156309809492889-4/click[39m
+[35m[HTTP][39m [90m{"id":"0.7156309809492889-4"}[39m
+[35m[W3C (566a98d3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId b19975842da0054bb3002885bbc0f02f with 566a98d3-6e49-46d3-a888-04296872d3a3
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/element/0.7156309809492889-4/click [39m[32m200[39m [90m817 ms - 65[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/async[39m
+[35m[HTTP][39m [90m{"script":"\tvar callback = arguments[arguments.length - 1].bind(this);\r\n\twindow.katalonWaiter.katalon_smart_waiter_do_ajax_wait(callback);","args":[]}[39m
+[35m[W3C (566a98d3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[Protocol Converter][39m Rewrote the original URL '/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/async' to '/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute_async' for MJSONWP protocol
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/async [39m[31m500[39m [90m1299 ms - 1972[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@id='brochure--2014868225']"}[39m
+[35m[W3C (566a98d3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId b19975842da0054bb3002885bbc0f02f with 566a98d3-6e49-46d3-a888-04296872d3a3
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/elements [39m[32m200[39m [90m503 ms - 160[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/sync[39m
+[35m[HTTP][39m [90m{"script":"arguments[0].scrollIntoView({block:'center'});","args":[{"ELEMENT":"0.17347812979685173-1","element-6066-11e4-a52e-4f735466cecf":"0.17347812979685173-1"}]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/sync [39m[32m200[39m [90m251 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/async[39m
+[35m[HTTP][39m [90m{"script":"\tvar callback = arguments[arguments.length - 1].bind(this);\r\n\twindow.katalonWaiter.katalon_smart_waiter_do_ajax_wait(callback);","args":[]}[39m
+[35m[W3C (566a98d3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[Protocol Converter][39m Rewrote the original URL '/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/async' to '/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute_async' for MJSONWP protocol
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/async [39m[31m500[39m [90m103 ms - 1972[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@id='brochure--2014868225']"}[39m
+[35m[W3C (566a98d3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId b19975842da0054bb3002885bbc0f02f with 566a98d3-6e49-46d3-a888-04296872d3a3
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/elements [39m[32m200[39m [90m37 ms - 160[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/element/0.17347812979685173-1/clear[39m
+[35m[HTTP][39m [90m{"id":"0.17347812979685173-1"}[39m
+[35m[W3C (566a98d3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId b19975842da0054bb3002885bbc0f02f with 566a98d3-6e49-46d3-a888-04296872d3a3
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/element/0.17347812979685173-1/clear [39m[32m200[39m [90m189 ms - 65[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/async[39m
+[35m[HTTP][39m [90m{"script":"\tvar callback = arguments[arguments.length - 1].bind(this);\r\n\twindow.katalonWaiter.katalon_smart_waiter_do_ajax_wait(callback);","args":[]}[39m
+[35m[W3C (566a98d3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[Protocol Converter][39m Rewrote the original URL '/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/async' to '/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute_async' for MJSONWP protocol
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/async [39m[31m500[39m [90m79 ms - 1972[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@id='brochure--2014868225']"}[39m
+[35m[W3C (566a98d3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId b19975842da0054bb3002885bbc0f02f with 566a98d3-6e49-46d3-a888-04296872d3a3
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/elements [39m[32m200[39m [90m29 ms - 160[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/element/0.17347812979685173-1/value[39m
+[35m[HTTP][39m [90m{"id":"0.17347812979685173-1","text":"dewdfsg@klick.com","value":["d","e","w","d","f","s","g","@","k","l","i","c","k",".","c","o","m"]}[39m
+[35m[W3C (566a98d3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId b19975842da0054bb3002885bbc0f02f with 566a98d3-6e49-46d3-a888-04296872d3a3
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/element/0.17347812979685173-1/value [39m[32m200[39m [90m728 ms - 65[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/async[39m
+[35m[HTTP][39m [90m{"script":"\tvar callback = arguments[arguments.length - 1].bind(this);\r\n\twindow.katalonWaiter.katalon_smart_waiter_do_ajax_wait(callback);","args":[]}[39m
+[35m[W3C (566a98d3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[Protocol Converter][39m Rewrote the original URL '/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/async' to '/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute_async' for MJSONWP protocol
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/async [39m[31m500[39m [90m33 ms - 1972[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"(//button[contains(text(),'Send Brochure to')])[1]"}[39m
+[35m[W3C (566a98d3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId b19975842da0054bb3002885bbc0f02f with 566a98d3-6e49-46d3-a888-04296872d3a3
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/elements [39m[32m200[39m [90m68 ms - 160[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/sync[39m
+[35m[HTTP][39m [90m{"script":"arguments[0].scrollIntoView({block:'center'});","args":[{"ELEMENT":"0.17347812979685173-3","element-6066-11e4-a52e-4f735466cecf":"0.17347812979685173-3"}]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/sync [39m[32m200[39m [90m63 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/async[39m
+[35m[HTTP][39m [90m{"script":"\tvar callback = arguments[arguments.length - 1].bind(this);\r\n\twindow.katalonWaiter.katalon_smart_waiter_do_ajax_wait(callback);","args":[]}[39m
+[35m[W3C (566a98d3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[Protocol Converter][39m Rewrote the original URL '/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/async' to '/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute_async' for MJSONWP protocol
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/async [39m[31m500[39m [90m33 ms - 1972[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"(//button[contains(text(),'Send Brochure to')])[1]"}[39m
+[35m[W3C (566a98d3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId b19975842da0054bb3002885bbc0f02f with 566a98d3-6e49-46d3-a888-04296872d3a3
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/elements [39m[32m200[39m [90m37 ms - 160[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/element/0.17347812979685173-3/click[39m
+[35m[HTTP][39m [90m{"id":"0.17347812979685173-3"}[39m
+[35m[W3C (566a98d3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId b19975842da0054bb3002885bbc0f02f with 566a98d3-6e49-46d3-a888-04296872d3a3
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/element/0.17347812979685173-3/click [39m[32m200[39m [90m763 ms - 65[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/async[39m
+[35m[HTTP][39m [90m{"script":"\tvar callback = arguments[arguments.length - 1].bind(this);\r\n\twindow.katalonWaiter.katalon_smart_waiter_do_ajax_wait(callback);","args":[]}[39m
+[35m[W3C (566a98d3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[Protocol Converter][39m Rewrote the original URL '/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/async' to '/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute_async' for MJSONWP protocol
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/async [39m[31m500[39m [90m34 ms - 1972[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@id='brochure-878960923']"}[39m
+[35m[W3C (566a98d3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId b19975842da0054bb3002885bbc0f02f with 566a98d3-6e49-46d3-a888-04296872d3a3
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/elements [39m[32m200[39m [90m61 ms - 160[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/sync[39m
+[35m[HTTP][39m [90m{"script":"arguments[0].scrollIntoView({block:'center'});","args":[{"ELEMENT":"0.17347812979685173-4","element-6066-11e4-a52e-4f735466cecf":"0.17347812979685173-4"}]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/sync [39m[32m200[39m [90m28 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/async[39m
+[35m[HTTP][39m [90m{"script":"\tvar callback = arguments[arguments.length - 1].bind(this);\r\n\twindow.katalonWaiter.katalon_smart_waiter_do_ajax_wait(callback);","args":[]}[39m
+[35m[W3C (566a98d3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[Protocol Converter][39m Rewrote the original URL '/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/async' to '/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute_async' for MJSONWP protocol
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/async [39m[31m500[39m [90m35 ms - 1972[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@id='brochure-878960923']"}[39m
+[35m[W3C (566a98d3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId b19975842da0054bb3002885bbc0f02f with 566a98d3-6e49-46d3-a888-04296872d3a3
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/elements [39m[32m200[39m [90m36 ms - 160[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/element/0.17347812979685173-4/clear[39m
+[35m[HTTP][39m [90m{"id":"0.17347812979685173-4"}[39m
+[35m[W3C (566a98d3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId b19975842da0054bb3002885bbc0f02f with 566a98d3-6e49-46d3-a888-04296872d3a3
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/element/0.17347812979685173-4/clear [39m[32m200[39m [90m225 ms - 65[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/async[39m
+[35m[HTTP][39m [90m{"script":"\tvar callback = arguments[arguments.length - 1].bind(this);\r\n\twindow.katalonWaiter.katalon_smart_waiter_do_ajax_wait(callback);","args":[]}[39m
+[35m[W3C (566a98d3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[Protocol Converter][39m Rewrote the original URL '/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/async' to '/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute_async' for MJSONWP protocol
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/async [39m[31m500[39m [90m46 ms - 1972[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@id='brochure-878960923']"}[39m
+[35m[W3C (566a98d3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId b19975842da0054bb3002885bbc0f02f with 566a98d3-6e49-46d3-a888-04296872d3a3
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/elements [39m[32m200[39m [90m39 ms - 160[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/element/0.17347812979685173-4/value[39m
+[35m[HTTP][39m [90m{"id":"0.17347812979685173-4","text":"dewdfsg@klick.com","value":["d","e","w","d","f","s","g","@","k","l","i","c","k",".","c","o","m"]}[39m
+[35m[W3C (566a98d3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId b19975842da0054bb3002885bbc0f02f with 566a98d3-6e49-46d3-a888-04296872d3a3
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/element/0.17347812979685173-4/value [39m[32m200[39m [90m1290 ms - 65[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/async[39m
+[35m[HTTP][39m [90m{"script":"\tvar callback = arguments[arguments.length - 1].bind(this);\r\n\twindow.katalonWaiter.katalon_smart_waiter_do_ajax_wait(callback);","args":[]}[39m
+[35m[W3C (566a98d3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[Protocol Converter][39m Rewrote the original URL '/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/async' to '/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute_async' for MJSONWP protocol
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/async [39m[31m500[39m [90m51 ms - 1972[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"(//button[contains(text(),'Send Brochure to')])[2]"}[39m
+[35m[W3C (566a98d3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId b19975842da0054bb3002885bbc0f02f with 566a98d3-6e49-46d3-a888-04296872d3a3
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/elements [39m[32m200[39m [90m61 ms - 160[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/sync[39m
+[35m[HTTP][39m [90m{"script":"arguments[0].scrollIntoView({block:'center'});","args":[{"ELEMENT":"0.17347812979685173-5","element-6066-11e4-a52e-4f735466cecf":"0.17347812979685173-5"}]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/sync [39m[32m200[39m [90m29 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/async[39m
+[35m[HTTP][39m [90m{"script":"\tvar callback = arguments[arguments.length - 1].bind(this);\r\n\twindow.katalonWaiter.katalon_smart_waiter_do_ajax_wait(callback);","args":[]}[39m
+[35m[W3C (566a98d3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[Protocol Converter][39m Rewrote the original URL '/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/async' to '/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute_async' for MJSONWP protocol
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/async [39m[31m500[39m [90m39 ms - 1972[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"(//button[contains(text(),'Send Brochure to')])[2]"}[39m
+[35m[W3C (566a98d3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId b19975842da0054bb3002885bbc0f02f with 566a98d3-6e49-46d3-a888-04296872d3a3
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/elements [39m[32m200[39m [90m34 ms - 160[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/element/0.17347812979685173-5/click[39m
+[35m[HTTP][39m [90m{"id":"0.17347812979685173-5"}[39m
+[35m[W3C (566a98d3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId b19975842da0054bb3002885bbc0f02f with 566a98d3-6e49-46d3-a888-04296872d3a3
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/element/0.17347812979685173-5/click [39m[32m200[39m [90m1027 ms - 65[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/async[39m
+[35m[HTTP][39m [90m{"script":"\tvar callback = arguments[arguments.length - 1].bind(this);\r\n\twindow.katalonWaiter.katalon_smart_waiter_do_ajax_wait(callback);","args":[]}[39m
+[35m[W3C (566a98d3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[Protocol Converter][39m Rewrote the original URL '/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/async' to '/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute_async' for MJSONWP protocol
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/async [39m[31m500[39m [90m31 ms - 1972[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@id='brochure--1260496382']"}[39m
+[35m[W3C (566a98d3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId b19975842da0054bb3002885bbc0f02f with 566a98d3-6e49-46d3-a888-04296872d3a3
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/elements [39m[32m200[39m [90m58 ms - 160[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/sync[39m
+[35m[HTTP][39m [90m{"script":"arguments[0].scrollIntoView({block:'center'});","args":[{"ELEMENT":"0.17347812979685173-6","element-6066-11e4-a52e-4f735466cecf":"0.17347812979685173-6"}]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/sync [39m[32m200[39m [90m31 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/async[39m
+[35m[HTTP][39m [90m{"script":"\tvar callback = arguments[arguments.length - 1].bind(this);\r\n\twindow.katalonWaiter.katalon_smart_waiter_do_ajax_wait(callback);","args":[]}[39m
+[35m[W3C (566a98d3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[Protocol Converter][39m Rewrote the original URL '/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/async' to '/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute_async' for MJSONWP protocol
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/async [39m[31m500[39m [90m50 ms - 1972[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@id='brochure--1260496382']"}[39m
+[35m[W3C (566a98d3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId b19975842da0054bb3002885bbc0f02f with 566a98d3-6e49-46d3-a888-04296872d3a3
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/elements [39m[32m200[39m [90m52 ms - 160[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/element/0.17347812979685173-6/clear[39m
+[35m[HTTP][39m [90m{"id":"0.17347812979685173-6"}[39m
+[35m[W3C (566a98d3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId b19975842da0054bb3002885bbc0f02f with 566a98d3-6e49-46d3-a888-04296872d3a3
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/element/0.17347812979685173-6/clear [39m[32m200[39m [90m212 ms - 65[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/async[39m
+[35m[HTTP][39m [90m{"script":"\tvar callback = arguments[arguments.length - 1].bind(this);\r\n\twindow.katalonWaiter.katalon_smart_waiter_do_ajax_wait(callback);","args":[]}[39m
+[35m[W3C (566a98d3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[Protocol Converter][39m Rewrote the original URL '/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/async' to '/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute_async' for MJSONWP protocol
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/async [39m[31m500[39m [90m35 ms - 1972[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@id='brochure--1260496382']"}[39m
+[35m[W3C (566a98d3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId b19975842da0054bb3002885bbc0f02f with 566a98d3-6e49-46d3-a888-04296872d3a3
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/elements [39m[32m200[39m [90m42 ms - 160[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/element/0.17347812979685173-6/value[39m
+[35m[HTTP][39m [90m{"id":"0.17347812979685173-6","text":"dewdfsg@klick.com","value":["d","e","w","d","f","s","g","@","k","l","i","c","k",".","c","o","m"]}[39m
+[35m[W3C (566a98d3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId b19975842da0054bb3002885bbc0f02f with 566a98d3-6e49-46d3-a888-04296872d3a3
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/element/0.17347812979685173-6/value [39m[32m200[39m [90m1259 ms - 65[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/async[39m
+[35m[HTTP][39m [90m{"script":"\tvar callback = arguments[arguments.length - 1].bind(this);\r\n\twindow.katalonWaiter.katalon_smart_waiter_do_ajax_wait(callback);","args":[]}[39m
+[35m[W3C (566a98d3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[Protocol Converter][39m Rewrote the original URL '/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/async' to '/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute_async' for MJSONWP protocol
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/async [39m[31m500[39m [90m44 ms - 1972[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//button[contains(text(),'Send Guide')]"}[39m
+[35m[W3C (566a98d3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId b19975842da0054bb3002885bbc0f02f with 566a98d3-6e49-46d3-a888-04296872d3a3
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/elements [39m[32m200[39m [90m67 ms - 160[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/sync[39m
+[35m[HTTP][39m [90m{"script":"arguments[0].scrollIntoView({block:'center'});","args":[{"ELEMENT":"0.17347812979685173-7","element-6066-11e4-a52e-4f735466cecf":"0.17347812979685173-7"}]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/sync [39m[32m200[39m [90m23 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/async[39m
+[35m[HTTP][39m [90m{"script":"\tvar callback = arguments[arguments.length - 1].bind(this);\r\n\twindow.katalonWaiter.katalon_smart_waiter_do_ajax_wait(callback);","args":[]}[39m
+[35m[W3C (566a98d3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[Protocol Converter][39m Rewrote the original URL '/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/async' to '/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute_async' for MJSONWP protocol
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/execute/async [39m[31m500[39m [90m299 ms - 1972[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//button[contains(text(),'Send Guide')]"}[39m
+[35m[W3C (566a98d3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId b19975842da0054bb3002885bbc0f02f with 566a98d3-6e49-46d3-a888-04296872d3a3
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/elements [39m[32m200[39m [90m33 ms - 160[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/element/0.17347812979685173-7/click[39m
+[35m[HTTP][39m [90m{"id":"0.17347812979685173-7"}[39m
+[35m[W3C (566a98d3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/566a98d3-6e49-46d3-a888-04296872d3a3/element/0.17347812979685173-7/click [39m[32m-[39m [90m- ms - -[39m
+[35m[HTTP][39m [90m[39m
+[35m[WD Proxy][39m Replacing sessionId b19975842da0054bb3002885bbc0f02f with 566a98d3-6e49-46d3-a888-04296872d3a3
+[35m[BaseDriver][39m Shutting down because we waited 1800 seconds for a command
+[35m[Appium][39m Closing session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[35m[Appium][39m Removing session '566a98d3-6e49-46d3-a888-04296872d3a3' from our master session list
+[35m[UiAutomator2][39m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'DELETE /' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
